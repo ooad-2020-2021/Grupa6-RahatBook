@@ -43,34 +43,34 @@ RahatBook predstavlja aplikaciju koja omogućava jednostavan pregled svih raspol
 * Odgovorna osoba mora odgovoriti na postavljeno pitanje u roku od 24 sata 
 
 ## Akteri:
-Neregistrovani korisnik:
-Ima najmanje privilegija od svih korisnika
-Ima uvid u sve ponude, te moze naci sve detalje vezano za iste
-Ima uvid u ocjene i komentare registrovanih korisnika
-Moze navesti check-in i check-out datum, te lokaciju za smjestaj i dobiti rezultate pretrage
-Moze filtrirati rezultate pretrage po svojim preferencijama
-Registrovani korisnik:
-Pri registraciji bira da li je obicni korisnik ili turisticka agencija
-Navodi check-in i check-out datum, te lokaciju za smjestaj i dobija rezultate pretrage
-Filtrira smjestajne jedinice po svojim preferencijama
-Bira smjestajnu jedinicu koja mu odgovara i zapocinje s procesom rezervacije
-Vrši rezervaciju u nekoliko koraka
-Ocjenjuje smjestaj
-Ostavlja komentare
-Salje pitanja hotelima-korisnicima
-Smjestajna jedinica:
-Predstavlja pravno lice
-Pri registraciji, navodi naziv, lokaciju uz GPS prikaz, tip smjestaja i kontakt informacije
-Bira karakteristike koje opisuju njihovu ponudu iz skupa kriterija pretrage
-Opcionalno i preporucljivo - daje kratki opis o sebi, te stavlja nekoliko slika koje opisuju smjestaj
-Mora dobiti odobrenje za registraciju od administratora
-Dobija mail o odobrenju ili odbijanju registracije, uz obrazlozenje administratora
-Ima uvid u sve rezervacije za svoju maticnu smjestajnu jedinicu
-Prihvata/odbija rezervacije gostiju koji nisu ispunili uslove prijave
-Odredjuje cijene i popuste na svoje ponude
-Odgovara na postavljena pitanja
-Administrator:
-Ima mogucnost upravljanja radom aplikacije
-Upravlja sitemskim aspektima aplikacije i implementacijskim detaljima
-Ima mogucnost prihvatanja ili odbijanja registracijskih zahtjeva smjestajnih jedinica
-Ima mogucnost uklanjanja (banovanja) korisnika
+* Neregistrovani korisnik:
+ * Ima najmanje privilegija od svih korisnika
+ * Ima uvid u sve ponude, te moze naci sve detalje vezano za iste
+ * Ima uvid u ocjene i komentare registrovanih korisnika
+ * Moze navesti check-in i check-out datum, te lokaciju za smjestaj i dobiti rezultate pretrage
+ * Moze filtrirati rezultate pretrage po svojim preferencijama
+* Registrovani korisnik:
+ * Pri registraciji bira da li je obicni korisnik ili turisticka agencija
+ * Navodi check-in i check-out datum, te lokaciju za smjestaj i dobija rezultate pretrage
+ * Filtrira smjestajne jedinice po svojim preferencijama
+ * Bira smjestajnu jedinicu koja mu odgovara i zapocinje s procesom rezervacije
+ * Vrši rezervaciju u nekoliko koraka
+ * Ocjenjuje smjestaj
+ * Ostavlja komentare
+ * Salje pitanja hotelima-korisnicima
+* Smjestajna jedinica:
+ * Predstavlja pravno lice
+ * Pri registraciji, navodi naziv, lokaciju uz GPS prikaz, tip smjestaja i kontakt informacije
+ * Bira karakteristike koje opisuju njihovu ponudu iz skupa kriterija pretrage
+ * Opcionalno i preporucljivo - daje kratki opis o sebi, te stavlja nekoliko slika koje opisuju smjestaj
+ * Mora dobiti odobrenje za registraciju od administratora
+ * Dobija mail o odobrenju ili odbijanju registracije, uz obrazlozenje administratora
+ * Ima uvid u sve rezervacije za svoju maticnu smjestajnu jedinicu
+ * Prihvata/odbija rezervacije gostiju koji nisu ispunili uslove prijave
+ * Odredjuje cijene i popuste na svoje ponude
+ * Odgovara na postavljena pitanja
+* Administrator:
+ * Ima mogucnost upravljanja radom aplikacije
+ * Upravlja sitemskim aspektima aplikacije i implementacijskim detaljima
+ * Ima mogucnost prihvatanja ili odbijanja registracijskih zahtjeva smjestajnih jedinica
+ * Ima mogucnost uklanjanja (banovanja) korisnika
