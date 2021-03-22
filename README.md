@@ -43,15 +43,14 @@ RahatBook predstavlja aplikaciju koja omogućava jednostavan pregled svih raspol
 * Odgovorna osoba mora odgovoriti na postavljeno pitanje u roku od 24 sata 
 
 ## Akteri:
-* Neregistrovani korisnik:
+**Neregistrovani korisnik:**
  * Ima najmanje privilegija od svih korisnika
  * Ima uvid u sve ponude, te moze naci sve detalje vezano za iste
  * Ima uvid u ocjene i komentare registrovanih korisnika
  * Moze navesti check-in i check-out datum, te lokaciju za smjestaj i dobiti rezultate pretrage
  * Moze filtrirati rezultate pretrage po svojim preferencijama
 
-
-* Registrovani korisnik:
+**Registrovani korisnik:**
  * Pri registraciji bira da li je obicni korisnik ili turisticka agencija
  * Navodi check-in i check-out datum, te lokaciju za smjestaj i dobija rezultate pretrage
  * Filtrira smjestajne jedinice po svojim preferencijama
@@ -62,7 +61,7 @@ RahatBook predstavlja aplikaciju koja omogućava jednostavan pregled svih raspol
  * Salje pitanja hotelima-korisnicima
 
 
-* Smjestajna jedinica:
+**Smjestajna jedinica:**
  * Predstavlja pravno lice
  * Pri registraciji, navodi naziv, lokaciju uz GPS prikaz, tip smjestaja i kontakt informacije
  * Bira karakteristike koje opisuju njihovu ponudu iz skupa kriterija pretrage
@@ -75,7 +74,7 @@ RahatBook predstavlja aplikaciju koja omogućava jednostavan pregled svih raspol
  * Odgovara na postavljena pitanja
 
 
-* Administrator:
+**Administrator:**
  * Ima mogucnost upravljanja radom aplikacije
  * Upravlja sitemskim aspektima aplikacije i implementacijskim detaljima
  * Ima mogucnost prihvatanja ili odbijanja registracijskih zahtjeva smjestajnih jedinica
