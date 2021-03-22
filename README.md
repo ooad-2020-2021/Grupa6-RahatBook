@@ -42,7 +42,7 @@ RahatBook predstavlja aplikaciju koja omogućava jednostavan pregled svih raspol
 * Ista napomena vrijedi i za postavljanje pitanja
 * Odgovorna osoba mora odgovoriti na postavljeno pitanje u roku od 24 sata 
 
-## Akteri:
+## Akteri i procesi:
 **Neregistrovani korisnik:**
  * Ima najmanje privilegija od svih korisnika
  * Ima uvid u sve ponude, te može naći sve detalje vezano za iste
