@@ -32,7 +32,7 @@ RahatBook predstavlja aplikaciju koja omogućava jednostavan pregled svih raspol
   * Korisnik mora dati neke osnovne podatke o sebi - ime i prezime, spol, naziv accounta, mail i datum rođenja
   * Korisnik mora dati dovoljno sigurnu lozinku, što će biti provjeravano preko progress bara
   * Korisnik koji se registruje ne može biti maloljetna osoba
-* Korisnik mora pristati na uslove korištenja aplikacije (Terms & Conditions)
+  * Korisnik mora pristati na uslove korištenja aplikacije (Terms & Conditions)
 * Datum dolaska može najranije biti sutrašnji datum u odnosu na tekući
 * Datum odlaska mora biti barem jedan dan nakon datuma dolaska
 * Rezervacija se može otkazati najkasnije 24 sata prije datuma dolaska
