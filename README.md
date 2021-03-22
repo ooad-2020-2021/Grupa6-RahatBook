@@ -61,7 +61,7 @@ RahatBook predstavlja aplikaciju koja omogućava jednostavan pregled svih raspol
  * Šalje pitanja hotelima-korisnicima
 
 
-**Smjestajna jedinica:**
+**Smještajna jedinica:**
  * Predstavlja pravno lice
  * Pri registraciji, navodi naziv, lokaciju uz GPS prikaz, tip smještaja i kontakt informacije
  * Bira karakteristike koje opisuju njihovu ponudu iz skupa kriterija pretrage
