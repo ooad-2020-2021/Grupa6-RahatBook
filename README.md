@@ -27,20 +27,20 @@ RahatBook predstavlja aplikaciju koja omogućava jednostavan pregled svih raspol
 * Odgovaranje na postavljena pitanja
 
 ## Nefunkcionalni zahtjevi:
-Prilagodljivost za upotrebu aplikacije na svim operativnim sistemima
-Restrikcije pri registraciji korisnika:
-Korisnik mora dati neke osnovne podatke o sebi - ime i prezime, spol, naziv accounta, mail i datum rođenja
-Korisnik mora dati dovoljno sigurnu lozinku, što će biti provjeravano preko progress bara
-Korisnik koji se registruje ne može biti maloljetna osoba
-Korisnik mora pristati na uslove korištenja aplikacije (Terms & Conditions)
-Datum dolaska može najranije biti sutrašnji datum u odnosu na tekući
-Datum odlaska mora biti barem jedan dan nakon datuma dolaska
-Rezervacija se može otkazati najkasnije 24 sata prije datuma dolaska
-Komentar na smještaj i usluge može se ostaviti tek kada smještajne jedinice budu imale evidenciju da je korisnik zaista koristio njihove usluge u posljednjih godinu dana
-Korisnik može ocjenjivati usluge tek kada smještajne jedinice budu imale evidenciju da je korisnik zaista koristio njihove usluge u posljednjih godinu dana
-Komentari na smještaj i usluge ne smiju biti uvredljivi, neosnovani ili nerelevantni, u suprotnom administrator ima pravo banovanja takvih korisnika
-Ista napomena vrijedi i za postavljanje pitanja
-Odgovorna osoba mora odgovoriti na postavljeno pitanje u roku od 24 sata 
+* Prilagodljivost za upotrebu aplikacije na svim operativnim sistemima
+* Restrikcije pri registraciji korisnika:
+  * Korisnik mora dati neke osnovne podatke o sebi - ime i prezime, spol, naziv accounta, mail i datum rođenja
+  * Korisnik mora dati dovoljno sigurnu lozinku, što će biti provjeravano preko progress bara
+  * Korisnik koji se registruje ne može biti maloljetna osoba
+* Korisnik mora pristati na uslove korištenja aplikacije (Terms & Conditions)
+* Datum dolaska može najranije biti sutrašnji datum u odnosu na tekući
+* Datum odlaska mora biti barem jedan dan nakon datuma dolaska
+* Rezervacija se može otkazati najkasnije 24 sata prije datuma dolaska
+* Komentar na smještaj i usluge može se ostaviti tek kada smještajne jedinice budu imale evidenciju da je korisnik zaista koristio njihove usluge u posljednjih godinu dana
+* Korisnik može ocjenjivati usluge tek kada smještajne jedinice budu imale evidenciju da je korisnik zaista koristio njihove usluge u posljednjih godinu dana
+* Komentari na smještaj i usluge ne smiju biti uvredljivi, neosnovani ili nerelevantni, u suprotnom administrator ima pravo banovanja takvih korisnika
+* Ista napomena vrijedi i za postavljanje pitanja
+* Odgovorna osoba mora odgovoriti na postavljeno pitanje u roku od 24 sata 
 
 ## Akteri:
 Neregistrovani korisnik:
