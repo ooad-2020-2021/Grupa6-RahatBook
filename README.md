@@ -13,18 +13,18 @@ Svi žele putovati svijetom. Putovati zaista znači razvijati se. Svijet je knji
 RahatBook predstavlja aplikaciju koja omogućava jednostavan pregled svih raspoloživih smještajnih jedinica za odabranu destinaciju, kao i prikaz cijena te usluga koje smještajne jedinice nude. Ova aplikacija omogućava i rezervaciju željenog smještaja i direktnu komunikaciju sa osobljem hotela. Cilj je spojiti ponudu i potražnju na jednom mjestu. Dakle, pored korisnika koji su u potrazi za smještajem, ova aplikacija pruža mogućnost malim i velikim preduzećima iz oblasti turizma da promovišu svoju ponudu i unaprijede poslovanje.
 
 ## Funkcionalnosti:
-Registracija 
-Prijava
-Pregled svih dostupnih smjestajnih jedinica
-Rezervacija smjestaja
-Odabir načina placanja
-Mogućnost štampanja potvrde o rezervaciji
-Automatski odgovor na rezervaciju
-Otkazivanje rezervacije
-Ocjenjivanje smještaja
-Ostavljanje komentara na smjestaj i usluge
-Postavljanje pitanja
-Odgovaranje na postavljena pitanja
+*Registracija 
+*Prijava
+*Pregled svih dostupnih smjestajnih jedinica
+*Rezervacija smjestaja
+*Odabir načina placanja
+*Mogućnost štampanja potvrde o rezervaciji
+*Automatski odgovor na rezervaciju
+*Otkazivanje rezervacije
+*Ocjenjivanje smještaja
+*Ostavljanje komentara na smjestaj i usluge
+*Postavljanje pitanja
+*Odgovaranje na postavljena pitanja
 
 ## Nefunkcionalni zahtjevi:
 Prilagodljivost za upotrebu aplikacije na svim operativnim sistemima
