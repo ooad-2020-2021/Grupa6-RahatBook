@@ -1,0 +1,13 @@
+Obzirom da je proces rezervacije prilicno kompleksan i ovisi od dosta faktora, nije napravljen jedan, vec cetiri dijagrama:
+1. Prvi dijagram, koji se zove Odabir smjestaja, opisuje pocetne korake prije specifikacije odabira smjestaja, koji su isti za svakoga. Citava procedura odabira je prikazana
+kao prva akcija u dijagramima 2, 3. i 4. radi konzistentnosti i preglednosti
+2. Drugi dijagram, koji se zove Rezervacija smjestaja - obicni korisnik, opisuje proces rezervacije onako kako on tece za obicnog korisnika
+3. Treci dijagram, koji se zove Rezervacija smjestaja - turisticka agencija, obicna grupa, opisuje proces rezervacije onako kako on tece za turisticku agenciju kada
+odabere da vodi obicnu grupu turista
+4. Cetvrti dijagram, koji se zove Rezervacija smjestaja - turisticka agencija, ekskurzija, opisuje proces rezervacije onako kako on tece za turisticku agenciju kada
+odabere da vodi ekskurziju
+
+Iako su dijagrami 2, 3 i 4 vrlo slicni i razlikuju se u sitnim (ali vaznim) detaljima, ipak su nacrtani odvojeno, jer je pocetni dijagram imao previse grananja
+koja su dijagram cinila nepreglednim.
+
+VAZNO: Dijagrami nisu finalni. Moguce je da ce biti izmijenjeni
