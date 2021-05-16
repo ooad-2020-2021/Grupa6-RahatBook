@@ -1,13 +1,13 @@
 ﻿using System;
 
-public class Class1
+public class Rezervacija
 {
 	static int brojRezervacija;
 	int id;
 	int idKorisnika;
 	int idSJ;
 	Tuple(DateTime, DateTime) dolazakOdlazak;
-	public Class1()
+	public Rezervacija()
 	{
 	}
 }
