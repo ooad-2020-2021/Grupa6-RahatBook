@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\alenm\\source\\repos\\RahatBookAplikacija\\RahatBookAplikacija\\RahatBookAplikacija.csproj": {}
+    "C:\\Users\\alenm\\Source\\Repos\\RahatBookAplikacijaFinal\\Aplikacija\\RahatBookAplikacija\\RahatBookAplikacija\\RahatBookAplikacija\\RahatBookAplikacija.csproj": {}
   },
   "projects": {
-    "C:\\Users\\alenm\\source\\repos\\RahatBookAplikacija\\RahatBookAplikacija\\RahatBookAplikacija.csproj": {
+    "C:\\Users\\alenm\\Source\\Repos\\RahatBookAplikacijaFinal\\Aplikacija\\RahatBookAplikacija\\RahatBookAplikacija\\RahatBookAplikacija\\RahatBookAplikacija.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\alenm\\source\\repos\\RahatBookAplikacija\\RahatBookAplikacija\\RahatBookAplikacija.csproj",
+        "projectUniqueName": "C:\\Users\\alenm\\Source\\Repos\\RahatBookAplikacijaFinal\\Aplikacija\\RahatBookAplikacija\\RahatBookAplikacija\\RahatBookAplikacija\\RahatBookAplikacija.csproj",
         "projectName": "RahatBookAplikacija",
-        "projectPath": "C:\\Users\\alenm\\source\\repos\\RahatBookAplikacija\\RahatBookAplikacija\\RahatBookAplikacija.csproj",
+        "projectPath": "C:\\Users\\alenm\\Source\\Repos\\RahatBookAplikacijaFinal\\Aplikacija\\RahatBookAplikacija\\RahatBookAplikacija\\RahatBookAplikacija\\RahatBookAplikacija.csproj",
         "packagesPath": "C:\\Users\\alenm\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\alenm\\source\\repos\\RahatBookAplikacija\\RahatBookAplikacija\\obj\\",
+        "outputPath": "C:\\Users\\alenm\\Source\\Repos\\RahatBookAplikacijaFinal\\Aplikacija\\RahatBookAplikacija\\RahatBookAplikacija\\RahatBookAplikacija\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\alenm\\AppData\\Roaming\\NuGet\\NuGet.Config",
