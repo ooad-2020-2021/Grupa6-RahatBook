@@ -1,8 +1,15 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Aplikacija"
+    "\\Aplikacija",
+    "\\Aplikacija\\RahatBookAplikacija",
+    "\\Aplikacija\\RahatBookAplikacija\\RahatBookAplikacija",
+    "\\Aplikacija\\RahatBookAplikacija\\RahatBookAplikacija\\RahatBookAplikacija",
+    "\\Aplikacija\\RahatBookAplikacija\\RahatBookAplikacija\\RahatBookAplikacija\\Controllers",
+    "\\Aplikacija\\RahatBookAplikacija\\RahatBookAplikacija\\RahatBookAplikacija\\Models",
+    "\\Aplikacija\\RahatBookAplikacija\\RahatBookAplikacija\\RahatBookAplikacija\\obj",
+    "\\Dizajn paterni\\Kreacijski paterni"
   ],
-  "SelectedNode": "\\Aplikacija\\RahatBookAplikacija.zip",
+  "SelectedNode": "\\Aplikacija\\RahatBookAplikacija\\RahatBookAplikacija\\RahatBookAplikacija\\Controllers\\HomeController.cs",
   "PreviewInSolutionExplorer": false
 }
