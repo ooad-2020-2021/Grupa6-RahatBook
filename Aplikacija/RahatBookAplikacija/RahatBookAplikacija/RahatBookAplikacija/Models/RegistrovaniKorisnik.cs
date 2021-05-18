@@ -12,5 +12,6 @@ namespace RahatBookAplikacija.Models
         DateTime datumRodjenja;
         String ime;
         String prezime;
+        Status status;
     }
 }

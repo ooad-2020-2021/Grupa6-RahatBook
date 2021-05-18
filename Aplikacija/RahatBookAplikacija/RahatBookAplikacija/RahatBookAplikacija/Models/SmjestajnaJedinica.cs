@@ -13,5 +13,6 @@ namespace RahatBookAplikacija.Models
         int idLokacije;
         int idKarakteristike;
         int idUsluge;
+        Status status;
     }
 }
