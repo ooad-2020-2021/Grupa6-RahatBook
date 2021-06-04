@@ -2,7 +2,7 @@
 using System;
 using System.ComponentModel.DataAnnotations;
 
-public class Uplata
+public class Uplata : InterfejsZaRezervaciju
 {
     #region Properties
     [Key]
@@ -18,5 +18,12 @@ public class Uplata
 
     public int idPopusta { get; set; }
 
+    #endregion
+
+    #region Metode
+    public void dioRezervacije()
+    {
+        throw new NotImplementedException();
+    }
     #endregion
 }

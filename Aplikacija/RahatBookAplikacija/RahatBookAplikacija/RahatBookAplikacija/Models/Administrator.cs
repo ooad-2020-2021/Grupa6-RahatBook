@@ -6,8 +6,11 @@ using System.Threading.Tasks;
 
 namespace RahatBookAplikacija.Models
 {
-    public class Administrator : RegistrovaniKorisnik
+    public class Administrator : RegistrovaniKorisnik, IPosmatrac
     {
-        
+        public void primiObavijest()
+        {
+            throw new NotImplementedException();
+        }
     }
 }

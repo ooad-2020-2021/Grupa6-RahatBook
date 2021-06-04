@@ -6,35 +6,36 @@ using System.Threading.Tasks;
 
 namespace RahatBookAplikacija.Models
 {
-    public class Rezervacija : IRezervacija, InterfejsZaRezervaciju
+    public class RezervacijaPopust : IRezervacija
     {
         #region Properties
-        public static int brojRezervacija { get; set; }
-
-        [Key]
         [Required]
-        public int id { get; set; }
+        public IRezervacija rezervacija { get; set; }
         [Required]
-        public int idKorisnika { get; set; }
-        [Required]
-        public int idSJ { get; set; }
-        [Required]
-        public Tuple<DateTime, DateTime> dolazakOdlazak { get; set; }
-        [Required]
-        public bool ekskurzija { get; set; }
-
-       
+        public int idPopusta { get; set; }
         #endregion
+
+
 
         #region Metode
         public double izracunajCijenu()
         {
             throw new NotImplementedException();
         }
-        public void dioRezervacije()
+
+        public double obracunajPopust()
         {
             throw new NotImplementedException();
         }
+        #endregion
+
+        #region Konstruktor 
+
+        public RezervacijaPopust(IRezervacija rezervacija)
+        {
+            this.rezervacija = rezervacija;
+        }
+
         #endregion
     }
 }

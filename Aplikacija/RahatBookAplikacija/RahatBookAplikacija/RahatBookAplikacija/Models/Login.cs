@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace RahatBookAplikacija.Models
 {
-    public class Login
+    public class Login : InterfejsZaRezervaciju
     {
         #region Properties
         [Key]
@@ -25,6 +25,13 @@ namespace RahatBookAplikacija.Models
         #region Konstruktor
         public Login()
         {
+        }
+        #endregion
+
+        #region Metode
+        public void dioRezervacije()
+        {
+            throw new NotImplementedException();
         }
         #endregion
     }

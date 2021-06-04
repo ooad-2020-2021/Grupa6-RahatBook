@@ -21,5 +21,33 @@ namespace RahatBookAplikacija.Models
         public String pitanje { get; set; }
         public String odgovor { get; set; }
         #endregion
+
+        #region Konstruktor
+        public Upit ()
+        {
+            obavijestiOPitanju();
+        }
+        #endregion
+
+        #region Metode
+        private void obavijestiOPitanju() 
+        {
+        }
+        private void obavijestiOOdgovoru() 
+        { 
+        }
+        private void obavijestiOPrijavi() 
+        {
+        }
+        public void odgovori(String odgovor)
+        {
+            this.odgovor = odgovor;
+            this.obavijestiOOdgovoru();
+        }
+        public void prijavi ()
+        {
+            obavijestiOPrijavi();
+        }
+        #endregion
     }
 }

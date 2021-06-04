@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace RahatBookAplikacija.Models
 {
-    public class RegistrovaniKorisnik
+    public class RegistrovaniKorisnik : IPosmatrac
     {
         #region Properties
         [Key]
@@ -22,6 +22,15 @@ namespace RahatBookAplikacija.Models
         public String prezime { get; set; }
         [Required]
         public Status status { get; set; }
+
+        #endregion
+
+        #region Metode
+
+        public void primiObavijest()
+        {
+            throw new NotImplementedException();
+        }
 
         #endregion
     }
