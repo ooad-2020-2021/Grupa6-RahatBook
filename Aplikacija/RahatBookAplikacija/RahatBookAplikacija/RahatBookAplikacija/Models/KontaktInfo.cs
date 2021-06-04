@@ -8,16 +8,26 @@ namespace RahatBookAplikacija.Models
 {
     public class KontaktInfo
     {
+        #region Properties
         [Key]
         [Required]
         public int idSJ { get; set; }
         [Required]
-        String ime { get; set; }
+        public String ime { get; set; }
         [Required]
-        String prezime { get; set; }
+        public String prezime { get; set; }
         [Required]
-        String email { get; set; }
+        public String email { get; set; }
         [Required]
-        String telefon { get; set; }
+        public String telefon { get; set; }
+
+        #endregion
+
+        #region Konstruktor
+        public KontaktInfo()
+        {
+        }
+        #endregion 
+
     }
 }

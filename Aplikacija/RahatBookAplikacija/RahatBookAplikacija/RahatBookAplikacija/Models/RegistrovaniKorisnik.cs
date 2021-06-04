@@ -8,6 +8,7 @@ namespace RahatBookAplikacija.Models
 {
     public class RegistrovaniKorisnik
     {
+        #region Properties
         [Key]
         [Required]
         public int id { get; set; }
@@ -21,5 +22,7 @@ namespace RahatBookAplikacija.Models
         public String prezime { get; set; }
         [Required]
         public Status status { get; set; }
+
+        #endregion
     }
 }

@@ -8,10 +8,6 @@ namespace RahatBookAplikacija.Models
 {
     public class Administrator : RegistrovaniKorisnik
     {
-        #region Properties
-
-
-
-        #endregion
+        
     }
 }

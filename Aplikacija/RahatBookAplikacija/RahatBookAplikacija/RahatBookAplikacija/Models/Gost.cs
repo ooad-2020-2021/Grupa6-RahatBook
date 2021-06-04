@@ -8,14 +8,23 @@ namespace RahatBookAplikacija.Models
 {
     public class Gost
     {
+        #region Properties
         [Key]
         [Required]
-        public int id;
+        public int id { get; set; }
         [Required]
-        String ime;
+        public String ime { get; set; }
         [Required]
-        String prezime;
+        public String prezime { get; set; }
         [Required]
-        DateTime datumRodjenja;
+        public DateTime datumRodjenja { get; set; }
+        #endregion
+
+
+        #region Konstruktor
+        public Gost()
+        {
+        }
+        #endregion
     }
 }
