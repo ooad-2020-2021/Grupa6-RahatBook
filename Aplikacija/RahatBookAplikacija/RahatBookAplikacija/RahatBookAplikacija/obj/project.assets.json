@@ -8,19 +8,19 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "C:\\Users\\alenm\\.nuget\\packages\\": {}
+    "C:\\Users\\Nejra Mustafic\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\alenm\\Source\\Repos\\RahatBookAplikacijaFinal\\Aplikacija\\RahatBookAplikacija\\RahatBookAplikacija\\RahatBookAplikacija\\RahatBookAplikacija.csproj",
+      "projectUniqueName": "C:\\Users\\Nejra Mustafic\\Documents\\GitHub\\Grupa6-RahatBook\\Aplikacija\\RahatBookAplikacija\\RahatBookAplikacija\\RahatBookAplikacija\\RahatBookAplikacija.csproj",
       "projectName": "RahatBookAplikacija",
-      "projectPath": "C:\\Users\\alenm\\Source\\Repos\\RahatBookAplikacijaFinal\\Aplikacija\\RahatBookAplikacija\\RahatBookAplikacija\\RahatBookAplikacija\\RahatBookAplikacija.csproj",
-      "packagesPath": "C:\\Users\\alenm\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\alenm\\Source\\Repos\\RahatBookAplikacijaFinal\\Aplikacija\\RahatBookAplikacija\\RahatBookAplikacija\\RahatBookAplikacija\\obj\\",
+      "projectPath": "C:\\Users\\Nejra Mustafic\\Documents\\GitHub\\Grupa6-RahatBook\\Aplikacija\\RahatBookAplikacija\\RahatBookAplikacija\\RahatBookAplikacija\\RahatBookAplikacija.csproj",
+      "packagesPath": "C:\\Users\\Nejra Mustafic\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Nejra Mustafic\\Documents\\GitHub\\Grupa6-RahatBook\\Aplikacija\\RahatBookAplikacija\\RahatBookAplikacija\\RahatBookAplikacija\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\alenm\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Nejra Mustafic\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -63,7 +63,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.200\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
       }
     }
   }
