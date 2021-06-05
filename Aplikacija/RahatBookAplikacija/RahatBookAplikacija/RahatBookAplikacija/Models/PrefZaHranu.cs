@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Threading.Tasks;
 
@@ -7,6 +8,15 @@ namespace RahatBookAplikacija.Models
 {
     public enum PrefZaHranu
     {
-        Vegetarijanska, Vegan, Halal, Kosher, Drugo
+        [Display(Name = "Vegetarijanska")]
+        Vegetarijanska,
+        [Display(Name = "Vegan")] 
+        Vegan,
+        [Display(Name = "Halal")] 
+        Halal,
+        [Display(Name = "Kosher")] 
+        Kosher,
+        [Display(Name = "Drugo")] 
+        Drugo
     }
 }

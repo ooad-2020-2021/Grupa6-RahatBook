@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Threading.Tasks;
@@ -11,17 +12,30 @@ namespace RahatBookAplikacija.Models
         #region Properties
         [Key]
         [Required]
+        [DisplayName("ID:")]
         public int id { get; set; }
+
         [Required]
+        [DisplayName("Naziv smještajne jedinice:")]
         public String naziv { get; set; }
+        [DisplayName("Broj zvjezdica:")]
         public int brojZvjezdica { get; set; }
+
         [Required]
+        [DisplayName("ID lokacije:")]
         public int idLokacije { get; set; }
+
         [Required]
+        [DisplayName("ID karakteristike:")]
         public int idKarakteristike { get; set; }
+
         [Required]
+        [DisplayName("ID usluge:")]
         public int idUsluge { get; set; }
+
         [Required]
+        [EnumDataType(typeof(Status))]
+        [DisplayName("Status smještajne jedinice:")]
         public Status status { get; set; }
 
 
