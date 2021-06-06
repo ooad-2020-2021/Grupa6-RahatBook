@@ -17,7 +17,6 @@ namespace RahatBookAplikacija.Data
         public DbSet<SmjestajnaJedinica> SmjestajnaJedinica { get; set; }
         public DbSet<Rezervacija> Rezervacija { get; set; }
         public DbSet<RegistrovaniKorisnik> RegistrovaniKorisnik { get; set; }
-        public DbSet<Administrator> Administrator { get; set; }
         public DbSet<Login> Login { get; set; }
 
         public DbSet<Lokacija> Lokacija { get; set; }
@@ -34,11 +33,11 @@ namespace RahatBookAplikacija.Data
 
         public DbSet<Upit> Upit { get; set; }
 
-        public DbSet<RezervacijaGost> RezervacijaGost { get; set; }
-
         public DbSet<SJSobe> SJSobe { get; set; }
 
         public DbSet<VrstaSobe> VrstaSobe { get; set; }
+
+        public DbSet<Administrator> Administrator { get; set; }
 
         protected override void OnModelCreating(ModelBuilder mb)
         {
@@ -46,7 +45,6 @@ namespace RahatBookAplikacija.Data
             mb.Entity<Rezervacija>().ToTable("Rezervacija");
             mb.Entity<RegistrovaniKorisnik>().ToTable("RegistrovaniKorisnik");
             mb.Entity<Login>().ToTable("Login");
-            mb.Entity<Administrator>().ToTable("Administrator");
             mb.Entity<Lokacija>().ToTable("Lokacija");
             mb.Entity<Popust>().ToTable("Popust");
             mb.Entity<Uplata>().ToTable("Uplata");
@@ -54,7 +52,6 @@ namespace RahatBookAplikacija.Data
             mb.Entity<KontaktInfo>().ToTable("KontaktInfo");
             mb.Entity<Recenzija>().ToTable("Recenzija");
             mb.Entity<Upit>().ToTable("Upit");
-            mb.Entity<RezervacijaGost>().ToTable("RezervacijaGost");
             mb.Entity<SJSobe>().ToTable("SJSobe");
             mb.Entity<VrstaSobe>().ToTable("VrstaSobe");
         }
