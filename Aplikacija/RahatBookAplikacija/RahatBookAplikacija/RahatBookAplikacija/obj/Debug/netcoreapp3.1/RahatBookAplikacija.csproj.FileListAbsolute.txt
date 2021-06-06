@@ -204,3 +204,8 @@ C:\Users\alenm\Source\Repos\RahatBookApp\Aplikacija\RahatBookAplikacija\RahatBoo
 C:\Users\alenm\Source\Repos\RahatBookApp\Aplikacija\RahatBookAplikacija\RahatBookAplikacija\RahatBookAplikacija\obj\Debug\netcoreapp3.1\Razor\Views\Administrator\Details.cshtml.g.cs
 C:\Users\alenm\Source\Repos\RahatBookApp\Aplikacija\RahatBookAplikacija\RahatBookAplikacija\RahatBookAplikacija\obj\Debug\netcoreapp3.1\Razor\Views\Administrator\Edit.cshtml.g.cs
 C:\Users\alenm\Source\Repos\RahatBookApp\Aplikacija\RahatBookAplikacija\RahatBookAplikacija\RahatBookAplikacija\obj\Debug\netcoreapp3.1\Razor\Views\Administrator\Index.cshtml.g.cs
+C:\Users\alenm\Source\Repos\RahatBookApp\Aplikacija\RahatBookAplikacija\RahatBookAplikacija\RahatBookAplikacija\obj\Debug\netcoreapp3.1\Razor\Views\Login\Create.cshtml.g.cs
+C:\Users\alenm\Source\Repos\RahatBookApp\Aplikacija\RahatBookAplikacija\RahatBookAplikacija\RahatBookAplikacija\obj\Debug\netcoreapp3.1\Razor\Views\Login\Delete.cshtml.g.cs
+C:\Users\alenm\Source\Repos\RahatBookApp\Aplikacija\RahatBookAplikacija\RahatBookAplikacija\RahatBookAplikacija\obj\Debug\netcoreapp3.1\Razor\Views\Login\Details.cshtml.g.cs
+C:\Users\alenm\Source\Repos\RahatBookApp\Aplikacija\RahatBookAplikacija\RahatBookAplikacija\RahatBookAplikacija\obj\Debug\netcoreapp3.1\Razor\Views\Login\Edit.cshtml.g.cs
+C:\Users\alenm\Source\Repos\RahatBookApp\Aplikacija\RahatBookAplikacija\RahatBookAplikacija\RahatBookAplikacija\obj\Debug\netcoreapp3.1\Razor\Views\Login\Index.cshtml.g.cs
