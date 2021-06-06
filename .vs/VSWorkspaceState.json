@@ -1,7 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Aplikacija",
+    "\\Aplikacija\\RahatBookAplikacija",
+    "\\Aplikacija\\RahatBookAplikacija\\RahatBookAplikacija"
   ],
-  "SelectedNode": "\\RahatBookAplikacija.sln",
+  "SelectedNode": "\\Aplikacija\\RahatBookAplikacija\\RahatBookAplikacija\\RahatBookAplikacija.sln",
   "PreviewInSolutionExplorer": false
 }

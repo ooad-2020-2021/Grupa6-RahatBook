@@ -8,6 +8,8 @@ using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using Microsoft.EntityFrameworkCore;
+using RahatBookAplikacija.Data;
 
 namespace RahatBookAplikacija
 {
@@ -24,6 +26,9 @@ namespace RahatBookAplikacija
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllersWithViews();
+
+            services.AddDbContext<RahatBookContext>(options =>
+                    options.UseSqlServer(Configuration.GetConnectionString("RahatBookContext")));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

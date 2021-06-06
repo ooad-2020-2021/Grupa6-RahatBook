@@ -13,10 +13,11 @@ namespace RahatBookAplikacija.Models
         [Key]
         [Required]
         [DisplayName("ID:")]
-        int id { get; set; }
+        public int id { get; set; }
+
         [Required]
         [DisplayName("ID korisnika:")]
-        int idKorisnika { get; set; }
+        public int idKorisnika { get; set; }
         [Required]
         [DisplayName("Korisničko ime:")]
         String korisnickoIme { get; set; }
