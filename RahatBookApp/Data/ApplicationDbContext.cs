@@ -53,6 +53,7 @@ namespace RahatBookApp.Data
             mb.Entity<Upit>().ToTable("Upit");
             mb.Entity<SJSobe>().ToTable("SJSobe");
             mb.Entity<VrstaSobe>().ToTable("VrstaSobe");
+            base.OnModelCreating(mb);
         }
     }
 }
