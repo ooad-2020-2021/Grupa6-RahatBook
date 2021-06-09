@@ -1,4 +1,5 @@
-﻿using System;
+﻿using RahatBookApp.Models;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
@@ -20,6 +21,7 @@ namespace RahatBookAplikacija.Models
         [DisplayName("Naziv smještajne jedinice:")]
         public String naziv { get; set; }
         [DisplayName("Broj zvjezdica:")]
+        [Range(1,5, ErrorMessage ="Broj zvjezdica mora biti između 1 i 5!")]
         public int brojZvjezdica { get; set; }
 
         [Required]
@@ -39,6 +41,10 @@ namespace RahatBookAplikacija.Models
         [DisplayName("Status smještajne jedinice:")]
         public Status status { get; set; }
 
+        [Required]
+        [EnumDataType(typeof(TipSmjestajneJedinice))]
+        [DisplayName("Tip smještajne jedinice:")]
+        public TipSmjestajneJedinice tip { get; set; }
 
         #endregion
 

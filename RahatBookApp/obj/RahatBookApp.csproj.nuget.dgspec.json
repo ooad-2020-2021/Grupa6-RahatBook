@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\alenm\\source\\repos\\RahatBookApp\\RahatBookApp\\RahatBookApp.csproj": {}
+    "C:\\Users\\Nejra Mustafic\\Documents\\GitHub\\Grupa6-RahatBook\\RahatBookApp\\RahatBookApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\alenm\\source\\repos\\RahatBookApp\\RahatBookApp\\RahatBookApp.csproj": {
+    "C:\\Users\\Nejra Mustafic\\Documents\\GitHub\\Grupa6-RahatBook\\RahatBookApp\\RahatBookApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\alenm\\source\\repos\\RahatBookApp\\RahatBookApp\\RahatBookApp.csproj",
+        "projectUniqueName": "C:\\Users\\Nejra Mustafic\\Documents\\GitHub\\Grupa6-RahatBook\\RahatBookApp\\RahatBookApp.csproj",
         "projectName": "RahatBookApp",
-        "projectPath": "C:\\Users\\alenm\\source\\repos\\RahatBookApp\\RahatBookApp\\RahatBookApp.csproj",
-        "packagesPath": "C:\\Users\\alenm\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\alenm\\source\\repos\\RahatBookApp\\RahatBookApp\\obj\\",
+        "projectPath": "C:\\Users\\Nejra Mustafic\\Documents\\GitHub\\Grupa6-RahatBook\\RahatBookApp\\RahatBookApp.csproj",
+        "packagesPath": "C:\\Users\\Nejra Mustafic\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Nejra Mustafic\\Documents\\GitHub\\Grupa6-RahatBook\\RahatBookApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\alenm\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Nejra Mustafic\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -46,11 +46,11 @@
             },
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[3.1.12, )"
+              "version": "[3.1.15, )"
             },
             "Microsoft.AspNetCore.Identity.UI": {
               "target": "Package",
-              "version": "[3.1.12, )"
+              "version": "[3.1.15, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
@@ -85,7 +85,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }

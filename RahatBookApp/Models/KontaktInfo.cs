@@ -21,9 +21,13 @@ namespace RahatBookAplikacija.Models
         [DisplayName("Prezime:")]
         public String prezime { get; set; }
         [Required]
+        [EmailAddress]
         [DisplayName("E-mail:")]
         public String email { get; set; }
         [Required]
+        [RegularExpression(@"[0-9]*",
+        ErrorMessage = "Dozvoljeno je samo korištenje brojeva!")]
+
         [DisplayName("Telefon:")]
         public String telefon { get; set; }
 

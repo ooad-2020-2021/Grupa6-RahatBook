@@ -1,0 +1,148 @@
+﻿@page
+@model RegisterSmjestajnaJedinicaModel
+@{
+    ViewData["Title"] = "Dodajte svoju smještajnu jedinicu";
+}
+
+<h1 style="color: darkblue">@ViewData["Title"]</h1>
+
+<div class="row">
+
+    <div class="col-md-6" style="width:50%; padding:50px; float:left">
+        <form asp-route-returnUrl="@Model.ReturnUrl" method="post">
+
+            <hr />
+            <div asp-validation-summary="All" class="text-danger"></div>
+
+            <h2 style="font-size:22px; text-align:center; color: darkblue">
+                Kontakt informacije
+            </h2>
+
+            <div class="form-group" style="color: darkblue">
+                <label asp-for="Input.ime"></label>
+                <input asp-for="Input.ime" class="form-control" />
+                <span asp-validation-for="Input.ime" class="text-danger"></span>
+            </div>
+            <div class="form-group" style="color: darkblue">
+                <label asp-for="Input.prezime"></label>
+                <input asp-for="Input.prezime" class="form-control" />
+                <span asp-validation-for="Input.prezime" class="text-danger"></span>
+            </div>
+
+            <div class="form-group" style="color: darkblue">
+                <label asp-for="Input.email"></label>
+                <input asp-for="Input.email" class="form-control" />
+                <span asp-validation-for="Input.email" class="text-danger"></span>
+            </div>
+            <div class="form-group" style="color: darkblue">
+                <label asp-for="Input.lozinka"></label>
+                <input asp-for="Input.lozinka" class="form-control" />
+                <span asp-validation-for="Input.lozinka" class="text-danger"></span>
+            </div>
+            <div class="form-group" style="color: darkblue">
+                <label asp-for="Input.potvrđenaLozinka"></label>
+                <input asp-for="Input.potvrđenaLozinka" class="form-control" />
+                <span asp-validation-for="Input.potvrđenaLozinka" class="text-danger"></span>
+            </div>
+            <button type="submit" class="btn btn-primary">Dodaj</button>
+        </form>
+    </div>
+
+
+
+    <div class="col-md-6" style=" width:550%;padding:50px; float:left">
+        <form asp-route-returnUrl="@Model.ReturnUrl" method="post">
+
+
+            <hr />
+            <div asp-validation-summary="All" class="text-danger"></div>
+            <h3 style="font-size:22px; text-align:center; color: darkblue">Osnovne informacije</h3>
+
+            <div class="form-group">
+                <p style="color: darkblue">Odaberite tip smještaja kojeg želite da registrirate:</p>
+
+                <div style="width:500px">
+
+                    <button style=" border: 2px solid black; background-color: white;
+                            color: black; padding: 14px 16px; font-size: 16px;  width: 150px;
+                            cursor: pointer; border-color: darkblue;
+                            color: darkblue;">
+                        Apartman
+                    </button>
+                    <button style=" border: 2px solid black; background-color: white;
+                    color: black; padding: 14px 16px; font-size: 16px; width: 150px;
+                    cursor: pointer; border-color: darkblue;
+                    color: darkblue;">
+                        Hotel
+                    </button>
+                    <button style=" border: 2px solid black; background-color: white;
+                    color: black; padding: 14px 16px; font-size: 16px; width: 150px;
+                    cursor: pointer; border-color: darkblue;
+                    color: darkblue;">
+                        Kuća
+                    </button>
+                </div>
+                <hr />
+                <div class="form-group" style="color: darkblue">
+                    <label asp-for="Input.smjestajnaJedinica.naziv"></label>
+                    <input asp-for="Input.smjestajnaJedinica.naziv" class="form-control" />
+                    <span asp-validation-for="Input.smjestajnaJedinica.naziv" class="text-danger"></span>
+                </div>
+                <div class="form-group" style="color: darkblue">
+                    <label asp-for="Input.smjestajnaJedinica.brojZvjezdica"></label>
+                    <input asp-for="Input.smjestajnaJedinica.brojZvjezdica" class="form-control" />
+                    <span asp-validation-for="Input.smjestajnaJedinica.brojZvjezdica" class="text-danger"></span>
+                </div>
+                <div class="form-group" style="color: darkblue">
+                    <p style="color: darkblue">Gdje se nalazi Vaša smještajna jedinica?</p>
+                    <label asp-for="Input.lokacija.drzava"></label>
+                    <input asp-for="Input.lokacija.drzava" class="form-control" />
+                    <span asp-validation-for="Input.lokacija.drzava" class="text-danger"></span>
+                </div>
+                <div class="form-group" style="color: darkblue">
+                    <label asp-for="Input.lokacija.grad"></label>
+                    <input asp-for="Input.lokacija.grad" class="form-control" />
+                    <span asp-validation-for="Input.lokacija.grad" class="text-danger"></span>
+                </div>
+                <div class="form-group" style="color: darkblue">
+                    <label asp-for="Input.lokacija.adresa"></label>
+                    <input asp-for="Input.lokacija.adresa" class="form-control" />
+                    <span asp-validation-for="Input.lokacija.adresa" class="text-danger"></span>
+                </div>
+                <div class="form-group" style="color: darkblue">
+                    <label asp-for="Input.lokacija.postanskiBroj"></label>
+                    <input asp-for="Input.lokacija.postanskiBroj" class="form-control" />
+                    <span asp-validation-for="Input.lokacija.postanskiBroj" class="text-danger"></span>
+                </div>
+            </div>
+
+        </form>
+
+    </div>
+
+
+
+    <div class="col-md-6" style=" width:550%;padding:50px; float:left">
+        <form asp-route-returnUrl="@Model.ReturnUrl" method="post">
+
+
+            <hr />
+            <div asp-validation-summary="All" class="text-danger"></div>
+            <h3 style="font-size:22px; text-align:center; color: darkblue">Usluge i pogodnosti</h3>
+
+            <h4 style="font-size:15px; text-align:left; color: darkblue"> Parking</h4>
+
+
+            
+
+          
+        </form>
+        </div>
+
+
+
+    </div>
+
+    @section Scripts {
+        <partial name="_ValidationScriptsPartial" />
+    }
