@@ -396,3 +396,13 @@ C:\Users\Nejra Mustafic\Documents\GitHub\Grupa6-RahatBook\RahatBookApp\obj\Debug
 C:\Users\Nejra Mustafic\Documents\GitHub\Grupa6-RahatBook\RahatBookApp\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\_ManageNav.cshtml.g.cs
 C:\Users\Nejra Mustafic\Documents\GitHub\Grupa6-RahatBook\RahatBookApp\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\_ViewImports.cshtml.g.cs
 C:\Users\Nejra Mustafic\Documents\GitHub\Grupa6-RahatBook\RahatBookApp\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\RegisterSmjestajnaJedinica.cshtml.g.cs
+C:\Users\alenm\source\repos\RahatBookApp\RahatBookApp\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\AccessDenied.cshtml.g.cs
+C:\Users\alenm\source\repos\RahatBookApp\RahatBookApp\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Login.cshtml.g.cs
+C:\Users\alenm\source\repos\RahatBookApp\RahatBookApp\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\Index.cshtml.g.cs
+C:\Users\alenm\source\repos\RahatBookApp\RahatBookApp\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\_ManageNav.cshtml.g.cs
+C:\Users\alenm\source\repos\RahatBookApp\RahatBookApp\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\_ViewImports.cshtml.g.cs
+C:\Users\alenm\source\repos\RahatBookApp\RahatBookApp\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Register.cshtml.g.cs
+C:\Users\alenm\source\repos\RahatBookApp\RahatBookApp\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\RegisterSmjestajnaJedinica.cshtml.g.cs
+C:\Users\alenm\source\repos\RahatBookApp\RahatBookApp\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\_ViewImports.cshtml.g.cs
+C:\Users\alenm\source\repos\RahatBookApp\RahatBookApp\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\alenm\source\repos\RahatBookApp\RahatBookApp\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\_ViewImports.cshtml.g.cs

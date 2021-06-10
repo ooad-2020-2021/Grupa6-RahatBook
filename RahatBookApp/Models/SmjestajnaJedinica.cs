@@ -13,35 +13,35 @@ namespace RahatBookAplikacija.Models
     {
         #region Properties
         [Key]
-        [Required]
+        [Required(ErrorMessage = "Ovo polje je obavezno")]
         [DisplayName("ID:")]
         public int id { get; set; }
 
-        [Required]
+        [Required(ErrorMessage = "Ovo polje je obavezno")]
         [DisplayName("Naziv smještajne jedinice:")]
         public String naziv { get; set; }
         [DisplayName("Broj zvjezdica:")]
         [Range(1,5, ErrorMessage ="Broj zvjezdica mora biti između 1 i 5!")]
         public int brojZvjezdica { get; set; }
 
-        [Required]
+        [Required(ErrorMessage = "Ovo polje je obavezno")]
         [DisplayName("ID lokacije:")]
         public int idLokacije { get; set; }
 
-        [Required]
+        [Required(ErrorMessage = "Ovo polje je obavezno")]
         [DisplayName("ID karakteristike:")]
         public int idKarakteristike { get; set; }
 
-        [Required]
+        [Required(ErrorMessage = "Ovo polje je obavezno")]
         [DisplayName("ID usluge:")]
         public int idUsluge { get; set; }
 
-        [Required]
+        [Required(ErrorMessage = "Ovo polje je obavezno")]
         [EnumDataType(typeof(Status))]
         [DisplayName("Status smještajne jedinice:")]
         public Status status { get; set; }
 
-        [Required]
+        [Required(ErrorMessage = "Ovo polje je obavezno")]
         [EnumDataType(typeof(TipSmjestajneJedinice))]
         [DisplayName("Tip smještajne jedinice:")]
         public TipSmjestajneJedinice tip { get; set; }
