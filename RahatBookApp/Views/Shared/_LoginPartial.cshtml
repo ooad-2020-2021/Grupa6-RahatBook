@@ -16,20 +16,56 @@
     }
     else
     {
-@if (User.Identity.IsAuthenticated)
+        @if (User.Identity.IsAuthenticated && !User.IsInRole("SmjestajnaJedinica"))
+        {
+            <li class="nav-item">
+                <a class="nav-link " style=" color:darkblue" asp-area="Identity" asp-page="/Account/BookSmjestajnaJedinica">Rezervišite smještaj</a>
+            </li>
+        }
+        <li class="nav-item">
+            @if (User.Identity.IsAuthenticated && User.IsInRole("Administrator"))
+            {
+            <li class="nav-item">
+                <a class="nav-link " style=" color:darkblue" asp-area="Identity" asp-page="/Account/UserOverview">Pregled svih korisnika</a>
+            </li>
+        }
+            @if (User.Identity.IsAuthenticated && !User.IsInRole("SmjestajnaJedinica"))
+            {
+                <li class="nav-item">
+                    <a class="nav-link " style=" color:darkblue" asp-area="Identity" asp-page="/Account/AccomodationUnitOverview">Pregled svih smjestajnih jedinica</a>
+                </li>
+            }
+            @if (User.Identity.IsAuthenticated && !User.IsInRole("SmjestajnaJedinica"))
+            {
+                <li class="nav-item">
+                    <a class="nav-link " style=" color:darkblue" asp-area="Identity" asp-page="/Account/BookSmjestajnaJedinica">Rezervišite smještaj</a>
+                </li>
+            }
+            @if (User.Identity.IsAuthenticated && User.IsInRole("RegistrovaniKorisnik"))
                 {
 <li class="nav-item">
     <a class="nav-link " style=" color:darkblue" asp-area="Identity" asp-page="/Account/BookSmjestajnaJedinica">Rezervišite smještaj</a>
 </li>
                 }
-        <li class="nav-item">
-            <a  class="nav-link " style="color: darkblue" asp-area="Identity" asp-page="/Account/RegisterSmjestajnaJedinica">Dodajte svoju smještajnu jedinicu</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" style="color: darkblue" asp-area="Identity" asp-page="/Account/Register">Registrujte se</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" style="color: darkblue" asp-area="Identity" asp-page="/Account/Login">Login</a>
-        </li>
-    }
+            @if (User.Identity.IsAuthenticated && User.IsInRole("SmjestajnaJedinica"))
+                {
+<li class="nav-item">
+    <a class="nav-link " style=" color:darkblue" asp-area="Identity" asp-page="/Account/BookSmjestajnaJedinica">Rezervacije za Vasu smjestajnu jedinicu</a>
+</li>
+                }
+            <a class="nav-link " style="color: darkblue" asp-area="Identity" asp-page="/Account/RegisterSmjestajnaJedinica">Dodajte svoju smještajnu jedinicu</a>
+            </li>
+        if (!User.Identity.IsAuthenticated)
+                {
+<li class="nav-item">
+    <a class="nav-link" style="color: darkblue" asp-area="Identity" asp-page="/Account/Register">Registrujte se</a>
+</li>
+        }
+        if (!User.Identity.IsAuthenticated)
+                {
+<li class="nav-item">
+    <a class="nav-link" style="color: darkblue" asp-area="Identity" asp-page="/Account/Login">Login</a>
+</li>
+                }
+        }
 </ul>
