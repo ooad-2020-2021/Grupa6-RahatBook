@@ -22,6 +22,7 @@ namespace RahatBookApp.Controllers
         }
 
         // GET: SmjestajnaJedinica
+        [Authorize]
         public async Task<IActionResult> Index()
         {
             return View(await _context.SmjestajnaJedinica.ToListAsync());
@@ -46,6 +47,7 @@ namespace RahatBookApp.Controllers
         }
 
         // GET: SmjestajnaJedinica/Create
+        [Authorize(Roles ="Administrator")]
         public IActionResult Create()
         {
             return View();
@@ -68,6 +70,7 @@ namespace RahatBookApp.Controllers
         }
 
         // GET: SmjestajnaJedinica/Edit/5
+        [Authorize(Roles ="Administrator")]
         public async Task<IActionResult> Edit(int? id)
         {
             if (id == null)

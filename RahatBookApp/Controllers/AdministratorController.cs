@@ -16,10 +16,8 @@ namespace RahatBookApp.Controllers
     {
         private readonly ApplicationDbContext _context;
 
-        public AdministratorController(ApplicationDbContext context)
-        {
-            _context = context;
-        }
+        
+        public AdministratorController(ApplicationDbContext context) => _context = context;
 
         // GET: Administrator
         public async Task<IActionResult> Index()
